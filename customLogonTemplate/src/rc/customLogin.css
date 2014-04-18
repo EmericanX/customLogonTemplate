@@ -1,0 +1,63 @@
+body
+{
+  font-family: Arial;
+  background-color: white;
+}
+
+.hidden
+{
+  visibility: hidden;
+}
+
+.textfield 
+{ 
+  padding: 2px; 
+  font-size: 14pt;
+  width: 130px;
+  border: #222 1px solid; 
+}
+
+.login_logo
+{
+  background-color: white;
+  float: left;
+}
+
+.login_failed
+{
+  background-color: red;
+  width: 250px;
+}
+
+
+.login_box
+{
+  background-color: white;
+  width: 550px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login_button
+{
+  float: left;
+  background-color: white;
+}
+
+.fieldcontainer
+{
+  background-color: white;
+  width: 250px;
+  float: left;
+  margin-top: 25px;
+}
+
+.field
+{
+  float: left;
+  font-size: 14pt;
+  font-weight: bold;
+  background-color: white;
+}
+img.bottom {vertical-align:bottom;}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module
+  name = "customLogin"
+  bajaVersion = "0"
+  vendor = "Tridium"
+  vendorVersion = "3.7.106"
+  description = "Custom Login Template Example"
+  preferredSymbol = "cl"
+  buildDate = "18-Apr-14 09:05 EDT"
+  buildMillis = "1397826344210"
+  buildHost = "CWC1195"
+>
+
+<dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.7.100"/>
+  <dependency name="web" vendor="Tridium" vendorVersion="3.7.100"/>
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.7.100"/>
+</dependencies>
+
+<dirs>
+  <dir name="com/tridium/customLogin" install="runtime"/>
+  <dir name="rc" install="runtime"/>
+  <dir name="doc" install="doc"/>
+</dirs>
+
+<types>
+  <type name="CustomLoginTemplate" class="com.tridium.customLogin.BCustomLoginTemplate"/>
+</types>
+
+</module>

@@ -1,0 +1,6 @@
+<!-- Module Include File -->
+
+<!-- Types -->
+<types>
+  <type name="CustomLoginTemplate" class="com.tridium.customLogin.BCustomLoginTemplate"/>
+</types>

@@ -1,0 +1,37 @@
+<!-- Module Build File -->
+
+<module
+  name = "customLogin"
+  bajaVersion = "0"
+  preferredSymbol = "cl"
+  description = "Custom Login Template Example"
+  vendor = "Tridium"
+>
+
+  <!-- Dependencies 3.7 Update 1 -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.7.100" />
+  <dependency name="web" vendor="Tridium" vendorVersion="3.7.100" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.7.100" />
+  
+  <!-- Dependencies 3.6 Update 4 -->
+  <!--
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.6.400" />
+  <dependency name="web" vendor="Tridium" vendorVersion="3.6.400" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.6.400" />
+  -->
+  
+  <!-- Dependencies 3.5 Update 4 -->
+  <!--
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.5.400" />
+  <dependency name="web" vendor="Tridium" vendorVersion="3.5.400" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.5.400" />
+  -->
+  
+  <!-- Packages -->
+  <package name="com.tridium.customLogin" />
+  
+  <!-- Resources -->
+  <resources name="rc/*.css" />
+  <resources name="rc/*.png" />
+
+</module>
