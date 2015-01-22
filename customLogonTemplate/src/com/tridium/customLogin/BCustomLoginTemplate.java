@@ -89,6 +89,12 @@ public class BCustomLoginTemplate
       e.printStackTrace();
       
       out.println("Error creating custom log in page...");
+      out.println("");
+      out.println("login.html not found.");
+      out.println("");
+      out.println("Confirm the html resources have been installed on the station at file:^login");
+      out.println("");
+      out.println("");
       e.printStackTrace(out);
     }
   }
@@ -107,8 +113,6 @@ public class BCustomLoginTemplate
     if (path.startsWith("custom/"))
     {
       // return custom resources:
-      // /login/custom/customLogin.css
-      // /login/custom/customLogo.png
       path=path.substring("custom/".length(), path.length());
       BOrd ord = BOrd.make("module://customLogin/rc/" + path);
       return ord;
