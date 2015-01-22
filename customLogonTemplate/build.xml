@@ -4,7 +4,7 @@
   name = "customLogin"
   bajaVersion = "0"
   preferredSymbol = "cl"
-  description = "Custom Login Template Example"
+  description = "Custom Login"
   vendor = "Tridium"
 >
 
@@ -33,5 +33,11 @@
   <!-- Resources -->
   <resources name="rc/*.css" />
   <resources name="rc/*.png" />
+  <resources name="rc/*.js" />
+  <resources name="rc/*.mp3" />
+  <resources name="rc/*.eot" />
+  <resources name="rc/*.svg" />
+  <resources name="rc/*.ttf" />
+  <resources name="rc/*.woff" />
 
 </module>

@@ -4,11 +4,11 @@
   bajaVersion = "0"
   vendor = "Tridium"
   vendorVersion = "3.7.106"
-  description = "Custom Login Template Example"
+  description = "Custom Login"
   preferredSymbol = "cl"
-  buildDate = "18-Apr-14 09:05 EDT"
-  buildMillis = "1397826344210"
-  buildHost = "CWC1195"
+  buildDate = "21-Jan-15 20:10 EST"
+  buildMillis = "1421889003910"
+  buildHost = "CWC1191"
 >
 
 <dependencies>
