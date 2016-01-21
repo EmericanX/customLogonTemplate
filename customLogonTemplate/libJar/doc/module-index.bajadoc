@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<bajadoc version='1.0' createdBy='Niagara Devkit 3.7.106' createdAt='21-Jan-2015' createdOn='CWC1191'>
+<bajadoc version='1.0' createdBy='Niagara Devkit 3.8.38' createdAt='21-Jan-2016' createdOn='CWCBAS'>
 <module
   name='customLogin'
   bajaVersion='0'
-  vendor='Tridium'
-  vendorVersion='3.7.106'
+  vendor='ColonialWebb'
+  vendorVersion='3.8.38'
 >
 <description>Custom Login</description>
 </module>

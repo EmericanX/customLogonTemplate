@@ -72,9 +72,8 @@ public class BCustomLoginTemplate
     }
       else
         html = TextUtil.replace(html, FAILED, "");
-      
-      html = TextUtil.replace(html, STATION_NAME, Sys.getStation().getStationName());
-      html = TextUtil.replace(html, AUTHENTICATION, service.getAuthenticationScheme().getTag());
+        html = TextUtil.replace(html, STATION_NAME, Sys.getStation().getStationName());
+        html = TextUtil.replace(html, AUTHENTICATION, service.getAuthenticationScheme().getTag());
       
            
       // Write out the HTML code to the response

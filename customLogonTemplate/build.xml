@@ -5,14 +5,21 @@
   bajaVersion = "0"
   preferredSymbol = "cl"
   description = "Custom Login"
-  vendor = "Tridium"
+  vendor = "ColonialWebb"
 >
 
+  <!-- Dependencies 3.8 Update 1 -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.8.1.38" />
+  <dependency name="web" vendor="Tridium" vendorVersion="3.8.38" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.8.38" /> 
+
   <!-- Dependencies 3.7 Update 1 -->
+  <!--
   <dependency name="baja" vendor="Tridium" vendorVersion="3.7.100" />
   <dependency name="web" vendor="Tridium" vendorVersion="3.7.100" />
   <dependency name="workbench" vendor="Tridium" vendorVersion="3.7.100" />
-  
+  -->
+
   <!-- Dependencies 3.6 Update 4 -->
   <!--
   <dependency name="baja" vendor="Tridium" vendorVersion="3.6.400" />
