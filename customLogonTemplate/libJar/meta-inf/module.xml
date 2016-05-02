@@ -2,13 +2,13 @@
 <module
   name = "customLogin"
   bajaVersion = "0"
-  vendor = "Tridium"
+  vendor = "ColonialWebb"
   vendorVersion = "3.7.106"
-  description = "Custom Login Template Example"
+  description = "Custom Login"
   preferredSymbol = "cl"
-  buildDate = "18-Apr-14 09:05 EDT"
-  buildMillis = "1397826344210"
-  buildHost = "CWC1195"
+  buildDate = "02-May-16 16:23 EDT"
+  buildMillis = "1462220617772"
+  buildHost = "CWCBAS"
 >
 
 <dependencies>
