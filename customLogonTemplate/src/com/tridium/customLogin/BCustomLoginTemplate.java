@@ -88,7 +88,13 @@ public class BCustomLoginTemplate
       System.out.println("Error attempting to load the custom HTML template...");
       e.printStackTrace();
       
-      out.println("Error creating custom log in page...");
+      out.println("Error creating custom log in page...<br>");
+      out.println("<br>");
+      out.println("login.html not found.<br>");
+      out.println("<br>");
+      out.println("Confirm the html resources have been installed on the station at file:^login <br>");
+      out.println("<br>");
+      out.println("<br>");
       e.printStackTrace(out);
     }
   }
